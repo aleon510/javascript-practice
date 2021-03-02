@@ -4,4 +4,9 @@
     comment
 */
 
-console.log()
+var myObj = { firstname: 'Alex', lastname: 'Leon' };
+console.log(myObj);
+
+var myArr = ['Pizza'];
+console.log(myArr);
+

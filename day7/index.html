@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="item">Hello World</div>
+</body>
+  <script src="helper.js"></script>
+  <script src="chapters.js"></script>
+  <script src="story.js"></script>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: "header header header header"
+                  "sidemenu main main main";
+  }
+  header{
+    height: 100px;
+    background-color: aliceblue;
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-between;
+    grid-area: header;
+    }
+
+    .logo {
+      height: 70px;
+      width: 70px;
+      background-color: purple;
+      border-radius: 50%;
+      margin: 10px;
+    }
+    .profilePic {
+      height: 70px;
+      width: 70px;
+      background-color: green;
+      border-radius: 50%;
+      margin: 10px;
+    }
+    nav {
+      border: 10px solid black;
+      display: inline-block;
+      grid-area: sidemenu;
+    }
+    a {
+    display: block;
+    margin: 10px;
+    }
+    .main{
+      background-color: brown;
+      display: inline-block;
+      grid-area: main;
+      border: 10px solid black;
+    }
+</style>
+</html>
